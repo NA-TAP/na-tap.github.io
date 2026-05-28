@@ -7,7 +7,24 @@
 }
 
 html, body {
-  background-color: rgb(61, 155, 255);
+  background-color: rgb(0, 66, 136);
   margin: 0;
   padding: 0;
+  font-family: 'MyCustomFont', sans-serif;
+    color: #78bcff;
+}
+
+a {
+    color: #78bcff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #78bcff; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #78bcff;
+    text-decoration: underline;
 }
