@@ -6,6 +6,10 @@
     font-display: swap;
 }
 
+header {
+    background-color: rgb(0, 78, 161);
+}
+
 html, body {
   background-color: rgb(0, 66, 136);
   margin: 0;
@@ -27,4 +31,8 @@ a:visited {
 a:hover {
     color: #78bcff;
     text-decoration: underline;
+}
+
+hr {
+    color: #78bcff;
 }
