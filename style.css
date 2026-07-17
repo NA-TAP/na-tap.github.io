@@ -21,8 +21,27 @@ html, body {
   -webkit-text-stroke: 0.5px #78bcff;
 }
 
-table, tr, th {
-    border: 2px solid rgb(15, 99, 189)
+pre {
+  font-family: 'MyCustomFont';
+  color: rgb(0, 66, 136);
+  -webkit-text-stroke: 0.5px #78bcff;
+}
+
+table{
+  border: 2px solid rgb(15, 99, 189);
+  border-collapse: collapse;
+}
+
+tr, td{
+    border: 2px solid rgb(15, 99, 189);
+}
+
+#restoftable{
+  background-color: rgb(53, 139, 219);
+}
+
+#tableheader{
+    background-color:rgb(29, 110, 196);
 }
 
 a {
